@@ -1,0 +1,34 @@
+{
+  "name": "siapi-connector-mongoose",
+  "version": "3.6.5",
+  "description": "Mongoose hook for the Siapi framework",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "mongoose": "5.10.8",
+    "mongoose-float": "^1.0.4",
+    "mongoose-long": "^0.3.2",
+    "p-map": "4.0.0",
+    "pluralize": "^8.0.0",
+    "semver": "^7.3.5",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
